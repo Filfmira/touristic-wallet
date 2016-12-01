@@ -1,0 +1,2 @@
+C:\Users\Filipe Batista\Desktop\XamCallWeb\XamCallWeb\XamCallWeb.UWP\XamCallWeb.UWP.csproj;x86
+C:\Users\Filipe Batista\Desktop\XamCallWeb\XamCallWeb\XamCallWeb\XamCallWeb.csproj;neutral

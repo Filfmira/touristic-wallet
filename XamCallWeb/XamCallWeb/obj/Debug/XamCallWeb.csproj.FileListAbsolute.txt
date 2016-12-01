@@ -1,0 +1,15 @@
+C:\Users\Filipe Batista\Desktop\XamCallWeb\XamCallWeb\XamCallWeb\bin\Debug\XamCallWeb.dll
+C:\Users\Filipe Batista\Desktop\XamCallWeb\XamCallWeb\XamCallWeb\bin\Debug\XamCallWeb.pdb
+C:\Users\Filipe Batista\Desktop\XamCallWeb\XamCallWeb\XamCallWeb\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\Filipe Batista\Desktop\XamCallWeb\XamCallWeb\XamCallWeb\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\Filipe Batista\Desktop\XamCallWeb\XamCallWeb\XamCallWeb\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\Filipe Batista\Desktop\XamCallWeb\XamCallWeb\XamCallWeb\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\Filipe Batista\Desktop\XamCallWeb\XamCallWeb\XamCallWeb\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\Filipe Batista\Desktop\XamCallWeb\XamCallWeb\XamCallWeb\bin\Debug\Xamarin.Forms.Platform.pdb
+C:\Users\Filipe Batista\Desktop\XamCallWeb\XamCallWeb\XamCallWeb\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\Filipe Batista\Desktop\XamCallWeb\XamCallWeb\XamCallWeb\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\Filipe Batista\Desktop\XamCallWeb\XamCallWeb\XamCallWeb\obj\Debug\XamCallWeb.csprojResolveAssemblyReference.cache
+C:\Users\Filipe Batista\Desktop\XamCallWeb\XamCallWeb\XamCallWeb\obj\Debug\XamCallWeb.dll
+C:\Users\Filipe Batista\Desktop\XamCallWeb\XamCallWeb\XamCallWeb\obj\Debug\XamCallWeb.pdb
+C:\Users\Filipe Batista\Desktop\XamCallWeb\XamCallWeb\XamCallWeb\obj\Debug\XamCallWeb.dll.mdb
+C:\Users\Filipe Batista\Desktop\XamCallWeb\XamCallWeb\XamCallWeb\bin\Debug\XamCallWeb.dll.mdb
