@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>92d4f14c-26fa-4f78-b14f-836d2648a3b8</PackageIdentityName>
     <PackageIdentityPublisher>CN=Miguel</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Filipe Batista\Desktop\XamCallWeb\XamCallWeb\XamCallWeb.UWP\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb.UWP\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -25,16 +25,16 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Filipe Batista\Desktop\XamCallWeb\XamCallWeb\XamCallWeb.UWP\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-12-01T19:31:44.041</Modified>
+      <Modified>2016-12-03T15:45:04.256</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Filipe Batista\Desktop\XamCallWeb\XamCallWeb\XamCallWeb.UWP\bin\x86\Debug\XamCallWeb.UWP.exe">
+    <AppxPackagedFile Include="C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb.UWP\bin\x86\Debug\XamCallWeb.UWP.exe">
       <PackagePath>entrypoint\XamCallWeb.UWP.exe</PackagePath>
-      <Modified>2016-12-01T19:31:41.436</Modified>
+      <Modified>2016-12-03T15:45:00.974</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Filipe Batista\.nuget\packages\Microsoft.CSharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -508,51 +508,51 @@
       <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
       <Modified>2016-11-18T13:24:26.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Filipe Batista\Desktop\XamCallWeb\XamCallWeb\XamCallWeb\bin\Debug\XamCallWeb.dll">
+    <AppxPackagedFile Include="C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb\bin\Debug\XamCallWeb.dll">
       <PackagePath>XamCallWeb.dll</PackagePath>
-      <Modified>2016-12-01T19:17:39.115</Modified>
+      <Modified>2016-12-03T15:44:57.805</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Filipe Batista\Desktop\XamCallWeb\XamCallWeb\XamCallWeb.UWP\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2016-11-22T16:34:31.253</Modified>
+      <Modified>2016-12-03T15:43:13.816</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Filipe Batista\Desktop\XamCallWeb\XamCallWeb\XamCallWeb.UWP\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb.UWP\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2016-11-22T16:34:31.236</Modified>
+      <Modified>2016-12-03T15:43:13.784</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Filipe Batista\Desktop\XamCallWeb\XamCallWeb\XamCallWeb.UWP\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb.UWP\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-11-22T16:34:31.239</Modified>
+      <Modified>2016-12-03T15:43:13.785</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Filipe Batista\Desktop\XamCallWeb\XamCallWeb\XamCallWeb.UWP\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb.UWP\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-11-22T16:34:31.241</Modified>
+      <Modified>2016-12-03T15:43:13.787</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Filipe Batista\Desktop\XamCallWeb\XamCallWeb\XamCallWeb.UWP\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb.UWP\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-11-22T16:34:31.243</Modified>
+      <Modified>2016-12-03T15:43:13.788</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Filipe Batista\Desktop\XamCallWeb\XamCallWeb\XamCallWeb.UWP\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb.UWP\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-11-22T16:34:31.245</Modified>
+      <Modified>2016-12-03T15:43:13.789</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Filipe Batista\Desktop\XamCallWeb\XamCallWeb\XamCallWeb.UWP\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb.UWP\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-11-22T16:34:31.246</Modified>
+      <Modified>2016-12-03T15:43:13.790</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Filipe Batista\Desktop\XamCallWeb\XamCallWeb\XamCallWeb.UWP\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb.UWP\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-11-22T16:34:31.248</Modified>
+      <Modified>2016-12-03T15:43:13.791</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Filipe Batista\Desktop\XamCallWeb\XamCallWeb\XamCallWeb.UWP\bin\x86\Debug\XamCallWeb.UWP.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb.UWP\bin\x86\Debug\XamCallWeb.UWP.xr.xml">
       <PackagePath>XamCallWeb.UWP.xr.xml</PackagePath>
-      <Modified>2016-12-01T19:31:41.193</Modified>
+      <Modified>2016-12-03T15:43:20.905</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -566,14 +566,14 @@
       <PackagePath>Xamarin.Forms.Platform.UAP\Properties\Xamarin.Forms.Platform.UAP.rd.xml</PackagePath>
       <Modified>2016-11-18T13:24:26.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Filipe Batista\Desktop\XamCallWeb\XamCallWeb\XamCallWeb.UWP\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-12-01T19:31:43.303</Modified>
+      <Modified>2016-12-03T15:45:03.762</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Filipe Batista\Desktop\XamCallWeb\XamCallWeb\XamCallWeb.UWP\bin\x86\Debug\Core\XamCallWeb.UWP.exe">
+    <AppxPackagedFile Include="C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb.UWP\bin\x86\Debug\Core\XamCallWeb.UWP.exe">
       <PackagePath>XamCallWeb.UWP.exe</PackagePath>
-      <Modified>2016-12-01T19:31:44.030</Modified>
+      <Modified>2016-12-03T15:45:04.251</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

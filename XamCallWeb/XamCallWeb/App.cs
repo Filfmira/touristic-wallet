@@ -8,6 +8,9 @@ using Xamarin.Forms;
 namespace XamCallWeb {
   public class App : Application {
     public App() {
+
+
+
       // The root page of your application
       var content = new CallPage {
         Title = "XamCallWeb",
@@ -26,5 +29,9 @@ namespace XamCallWeb {
     protected override void OnResume() {
       // Handle when your app resumes
     }
+
+
+
+
   }
 }
