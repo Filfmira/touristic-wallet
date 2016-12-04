@@ -37,8 +37,10 @@ namespace XamCallWeb
 
             lab1 = new Label()
             {
-                HorizontalOptions = LayoutOptions.Center,
-                Text = "Ammount: "
+                HorizontalOptions = LayoutOptions.Start,
+                Text = "Ammount: ",
+                FontSize=20,
+                TextColor=Color.Black
             };
 
 
@@ -61,6 +63,7 @@ namespace XamCallWeb
             {
                 Title = "Currency",
                 VerticalOptions = LayoutOptions.CenterAndExpand,
+
             };
 
             foreach (string colorName in currency)
@@ -110,21 +113,24 @@ namespace XamCallWeb
             but = new Button()
             {
                 Text = "Calculate",
-                HorizontalOptions = LayoutOptions.Center
+                HorizontalOptions = LayoutOptions.Center,
+                BackgroundColor=Color.Transparent,
+                BorderColor = Color.Transparent
             };
             but.Clicked += OnButton_Clicked;
 
             var stack2 = new StackLayout()
             {
                 Orientation = StackOrientation.Horizontal,
-                Children = { totalMoneyLab, picker }
+                Children = { totalMoneyLab, picker, but }
 
             };
 
             var newAmmountLab = new Label()
             {
                 Text = "Add/Sub ammount: ",
-                WidthRequest = 250
+                WidthRequest = 250,
+                VerticalTextAlignment= TextAlignment.Center
             };
 
 
@@ -138,14 +144,20 @@ namespace XamCallWeb
             var butAdd = new Button()
             {
                 Text = "Add",
-                HorizontalOptions = LayoutOptions.Center
+                HorizontalOptions = LayoutOptions.Center,
+                BackgroundColor = Color.Transparent,
+                BorderColor=Color.Transparent
+
             };
             butAdd.Clicked += OnAddButton_Clicked;
 
             var butSub = new Button()
             {
                 Text = "Sub",
-                HorizontalOptions = LayoutOptions.Center
+                HorizontalOptions = LayoutOptions.Center,
+                BackgroundColor = Color.Transparent,
+                BorderColor = Color.Transparent
+
             };
             butSub.Clicked += OnSubButton_Clicked;
 
@@ -207,7 +219,7 @@ namespace XamCallWeb
             var contentStack = new StackLayout
             {
                 Padding = new Thickness(20),
-                Children = { stack1, stack2, but, lab1, stack3, layoutGraph }
+                Children = {     stack3, stack2, lab1, stack1, layoutGraph }
 
             };
 
