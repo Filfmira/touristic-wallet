@@ -15,6 +15,8 @@ namespace XamCallWeb
         Entry value;
         Picker picker, picker2;
         StackLayout stack1;
+        StackLayout layoutGraph;
+        Button but;
 
         public string[] currency = new string[12] { "EUR", "USD", "GBP", "CHF", "CNY", "CAD", "BRL", "AUD", "INR", "JPY", "RUB", "NZD" };
 
@@ -27,6 +29,8 @@ namespace XamCallWeb
 
         public double[] conversionRates = new double[12] {0,0,0,0,0,0,0,0,0,0,0,0};
 
+        public BoxView[] boxviews = new BoxView[12];
+
 
         public CallPage()
         {
@@ -38,12 +42,14 @@ namespace XamCallWeb
             };
 
 
-            loadCurrenciesConversion();
+            //loadCurrenciesConversion();
             
             foreach (Label label in labels)
             {
                 label.Text = "";
             }
+            loadCurrenciesConversion();
+
 
             picker = new Picker()
             {
@@ -101,7 +107,7 @@ namespace XamCallWeb
             };
 
 
-            var but = new Button()
+            but = new Button()
             {
                 Text = "Calculate",
                 HorizontalOptions = LayoutOptions.Center
@@ -165,19 +171,72 @@ namespace XamCallWeb
             };
 
 
+            StackLayout layout = new StackLayout
+            {
+                Orientation = StackOrientation.Horizontal,
+                HorizontalOptions = LayoutOptions.Center,
+                VerticalOptions = LayoutOptions.CenterAndExpand
+
+            };
+
+            layoutGraph = new StackLayout
+            {
+                Orientation = StackOrientation.Horizontal,
+                HorizontalOptions = LayoutOptions.Center,
+                VerticalOptions = LayoutOptions.CenterAndExpand
+
+            };
+
+            double max = ammounts.Max();
+
+            int counter2 = 0;
+            foreach (double d in ammounts)
+            {
+
+                boxviews[counter2] = new BoxView
+                {
+                    WidthRequest = 20,
+                    HeightRequest = (d * 150) / max,
+                    BackgroundColor = Color.Red,
+                    HorizontalOptions = LayoutOptions.Center,
+                    VerticalOptions = LayoutOptions.End
+                };
+                layoutGraph.Children.Add(boxviews[counter2]);
+                counter2++;
+            }
+            var contentStack = new StackLayout
+            {
+                Padding = new Thickness(20),
+                Children = { stack1, stack2, but, lab1, stack3, layoutGraph }
+
+            };
+
+            var scrollview = new ScrollView
+            {
+                Content = contentStack,
+            };
+
             Content = new StackLayout
             {
-                Children = { stack1, stack2, but , lab1 , stack3 }
+                Children = { scrollview }
             };
 
         }
 
         private void OnButton_Clicked(object sender, EventArgs e)
         {
+            CalculateWallet();
+        }
+
+
+        private void CalculateWallet()
+        {
             /* OBTER SÓ O CONVERSION RATE */
             int i = 0;
             double totalSumEuros = ammounts[0];
             double totalSumCurrency = 0;
+            double[] ammountsEuro = new double[12];
+            ammountsEuro[0] = ammounts[0];
 
             foreach (Label x in labels)
             {
@@ -186,17 +245,33 @@ namespace XamCallWeb
                 i++;
             }
 
-
             /* FAZER CONTAS */
-            for(int z = 1; z < ammounts.Length;  z++) {
+            for (int z = 1; z < ammounts.Length; z++)
+            {
                 totalSumEuros += ammounts[z] * conversionRates[z];
+                ammountsEuro[z] = ammounts[z] * conversionRates[z]; //keep values on an array
             }
 
             totalSumCurrency = totalSumEuros * (1 / conversionRates[picker.SelectedIndex]);
 
-            lab1.Text = "Ammount: " + totalSumCurrency + " in " +  picker.Items[picker.SelectedIndex];
-        }
+            //update graph
 
+            for (int z = 0; z < ammounts.Length; z++)
+            {
+                ammountsEuro[z] = ammountsEuro[z] * (1 / conversionRates[picker.SelectedIndex]);
+
+
+            }
+            double max = ammountsEuro.Max();
+
+            for (int z = 0; z < ammounts.Length; z++)
+            {
+                boxviews[z].HeightRequest = (ammountsEuro[z] * 150) / max;
+            }
+
+
+            lab1.Text = "Ammount: " + totalSumCurrency + " in " + picker.Items[picker.SelectedIndex];
+        }
 
         /* MUDAR FORMA COMO ESTÁ A SER REESCRITO O FORM */
 
@@ -221,6 +296,11 @@ namespace XamCallWeb
 
             }
 
+
+
+            CalculateWallet();
+
+
         }
 
         private void OnSubButton_Clicked(object sender, EventArgs e)
@@ -231,6 +311,8 @@ namespace XamCallWeb
                 ammounts[picker2.SelectedIndex] -= double.Parse(value.Text);
                 labelsVisible[picker2.SelectedIndex].Text = currency[picker2.SelectedIndex] + " in wallet: " + ammounts[picker2.SelectedIndex].ToString();
             }
+
+            CalculateWallet();
         }
 
 
