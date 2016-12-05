@@ -145,7 +145,6 @@ C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb.Droi
 C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
 C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\XamCallWeb.dll.mdb
 C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\XamCallWeb.Droid.dll.mdb
-C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\XamCallWeb.Droid.dll.mdb
 C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb.Droid\bin\Debug\XamCallWeb.Droid.dll.config
 C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb.Droid\bin\Debug\XamCallWeb.Droid.dll
 C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb.Droid\bin\Debug\XamCallWeb.Droid.pdb
@@ -224,4 +223,9 @@ C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\asse
 C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\XamCallWeb.dll.mdb
 C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\XamCallWeb.Droid.dll.mdb
 C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\XamCallWeb.Droid.dll.mdb
-C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb.Droid\bin\Debug\XamCallWeb.Droid.dll.mdb
+C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb.Droid\bin\Debug\PCLStorage.Abstractions.dll
+C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb.Droid\bin\Debug\PCLStorage.dll
+C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb.Droid\bin\Debug\PCLStorage.xml
+C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb.Droid\bin\Debug\PCLStorage.Abstractions.xml
+C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\XamCallWeb.Droid.dll.mdb
+C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb.Droid\bin\Debug\XamCallWeb.Droid.dll.mdb

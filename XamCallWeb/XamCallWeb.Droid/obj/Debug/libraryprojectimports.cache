@@ -2,10 +2,10 @@
 <Paths>
   <Jars></Jars>
   <ResolvedResourceDirectories>
-    <ResolvedResourceDirectory>C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\__library_projects__\PCLStorage\library_project_imports\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android\library_project_imports\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform\library_project_imports\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\__library_projects__\PCLStorage\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\__library_projects__\PCLStorage\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\__library_projects__\PCLStorage\library_project_imports\res</ResolvedResourceDirectory>
   </ResolvedResourceDirectories>
   <ResolvedAssetDirectories>
     <ResolvedAssetDirectory>obj\Debug\__library_projects__\PCLStorage\library_project_imports\assets</ResolvedAssetDirectory>
@@ -15,9 +15,9 @@
   </ResolvedAssetDirectories>
   <ResolvedEnvironmentFiles />
   <ResolvedResourceDirectoryStamps>
-    <ResolvedResourceDirectoryStamp>C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\__library_projects__\PCLStorage.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\__library_projects__\PCLStorage.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\__library_projects__\PCLStorage.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\__library_projects__\PCLStorage.stamp</ResolvedResourceDirectoryStamp>
   </ResolvedResourceDirectoryStamps>
 </Paths>

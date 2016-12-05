@@ -1,50 +1,50 @@
-C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\XamCallWeb.Droid.dll
-C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\FormsViewGroup.dll
-C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\PCLStorage.Abstractions.dll
-C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\PCLStorage.dll
-C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\Xamarin.Android.Support.Animated.Vector.Drawable.dll
-C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\Xamarin.Android.Support.Design.dll
-C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\Xamarin.Android.Support.v4.dll
-C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\Xamarin.Android.Support.v7.AppCompat.dll
-C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\Xamarin.Android.Support.v7.CardView.dll
-C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\Xamarin.Android.Support.v7.MediaRouter.dll
-C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\Xamarin.Android.Support.v7.RecyclerView.dll
-C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\Xamarin.Android.Support.Vector.Drawable.dll
-C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\Xamarin.Forms.Core.dll
-C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll
-C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\Xamarin.Forms.Platform.dll
-C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll
-C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\Java.Interop.dll
-C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\Mono.Android.dll
-C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\mscorlib.dll
-C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\System.Core.dll
-C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\System.dll
-C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\System.Xml.dll
-C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\System.Xml.Linq.dll
-C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\XamCallWeb.dll
-C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\System.Runtime.dll
-C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\System.ComponentModel.Composition.dll
-C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\System.Threading.Tasks.dll
-C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\System.IO.dll
-C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\System.Resources.ResourceManager.dll
-C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\System.Diagnostics.Debug.dll
-C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\System.Collections.dll
-C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\System.ObjectModel.dll
-C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\System.Globalization.dll
-C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\System.ComponentModel.dll
-C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\System.Xml.ReaderWriter.dll
-C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\System.Reflection.dll
-C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\System.Linq.Expressions.dll
-C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\System.Dynamic.Runtime.dll
-C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\System.Threading.dll
-C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\System.Runtime.Extensions.dll
-C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\System.Linq.dll
-C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\System.Reflection.Extensions.dll
-C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\System.Net.Http.dll
-C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\System.Runtime.Serialization.dll
-C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\System.ServiceModel.Internals.dll
-C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\System.Text.RegularExpressions.dll
-C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\System.Collections.Concurrent.dll
-C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\System.Runtime.InteropServices.dll
-C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\System.Net.Requests.dll
-C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\System.Net.Primitives.dll
+C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\XamCallWeb.Droid.dll
+C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\FormsViewGroup.dll
+C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\PCLStorage.Abstractions.dll
+C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\PCLStorage.dll
+C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\Xamarin.Android.Support.Animated.Vector.Drawable.dll
+C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\Xamarin.Android.Support.Design.dll
+C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\Xamarin.Android.Support.v4.dll
+C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\Xamarin.Android.Support.v7.AppCompat.dll
+C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\Xamarin.Android.Support.v7.CardView.dll
+C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\Xamarin.Android.Support.v7.MediaRouter.dll
+C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\Xamarin.Android.Support.v7.RecyclerView.dll
+C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\Xamarin.Android.Support.Vector.Drawable.dll
+C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\Xamarin.Forms.Core.dll
+C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll
+C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\Xamarin.Forms.Platform.dll
+C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll
+C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\Java.Interop.dll
+C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\Mono.Android.dll
+C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\mscorlib.dll
+C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\System.Core.dll
+C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\System.dll
+C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\System.Xml.dll
+C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\System.Xml.Linq.dll
+C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\XamCallWeb.dll
+C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\System.Runtime.dll
+C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\System.ComponentModel.Composition.dll
+C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\System.Threading.Tasks.dll
+C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\System.IO.dll
+C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\System.Resources.ResourceManager.dll
+C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\System.Diagnostics.Debug.dll
+C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\System.Collections.dll
+C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\System.ObjectModel.dll
+C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\System.Globalization.dll
+C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\System.ComponentModel.dll
+C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\System.Xml.ReaderWriter.dll
+C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\System.Reflection.dll
+C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\System.Linq.Expressions.dll
+C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\System.Dynamic.Runtime.dll
+C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\System.Threading.dll
+C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\System.Runtime.Extensions.dll
+C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\System.Linq.dll
+C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\System.Reflection.Extensions.dll
+C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\System.Net.Http.dll
+C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\System.Runtime.Serialization.dll
+C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\System.ServiceModel.Internals.dll
+C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\System.Text.RegularExpressions.dll
+C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\System.Collections.Concurrent.dll
+C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\System.Runtime.InteropServices.dll
+C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\System.Net.Requests.dll
+C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb.Droid\obj\Debug\android\assets\System.Net.Primitives.dll

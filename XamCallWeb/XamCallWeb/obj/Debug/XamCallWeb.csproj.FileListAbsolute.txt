@@ -26,8 +26,6 @@ C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb\bin\
 C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb\obj\Debug\XamCallWeb.csprojResolveAssemblyReference.cache
 C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb\obj\Debug\XamCallWeb.dll
 C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb\obj\Debug\XamCallWeb.pdb
-C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb\obj\Debug\XamCallWeb.dll.mdb
-C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb\bin\Debug\XamCallWeb.dll.mdb
 C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb\bin\Debug\XamCallWeb.dll
 C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb\bin\Debug\XamCallWeb.pdb
 C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb\bin\Debug\PCLStorage.Abstractions.dll
@@ -46,9 +44,9 @@ C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb\obj\Debug\XamCallWeb.dll
 C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb\obj\Debug\XamCallWeb.pdb
 C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb\obj\Debug\XamCallWeb.dll.mdb
 C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb\bin\Debug\XamCallWeb.dll.mdb
-C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb\obj\Debug\XamCallWeb.dll.mdb
-C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb\bin\Debug\XamCallWeb.dll.mdb
-C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb\obj\Debug\XamCallWeb.dll.mdb
-C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb\bin\Debug\XamCallWeb.dll.mdb
-C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb\obj\Debug\XamCallWeb.dll.mdb
-C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb\bin\Debug\XamCallWeb.dll.mdb
+C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb\bin\Debug\PCLStorage.Abstractions.dll
+C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb\bin\Debug\PCLStorage.dll
+C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb\bin\Debug\PCLStorage.xml
+C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb\bin\Debug\PCLStorage.Abstractions.xml
+C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb\obj\Debug\XamCallWeb.dll.mdb
+C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb\bin\Debug\XamCallWeb.dll.mdb

@@ -20,23 +20,22 @@ namespace XamCallWeb
         Button but;
 
         public string[] currency = new string[12] { "EUR", "USD", "GBP", "CHF", "CNY", "CAD", "BRL", "AUD", "INR", "JPY", "RUB", "NZD" };
-
         public double[] ammounts = new double[12] { 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 };
-
         public Label[] labels = new Label[12] { new Label(), new Label(), new Label(), new Label(), new Label(), new Label(), new Label(), new Label(), new Label(), new Label(), new Label(), new Label() };
-
         public Label[] labelsVisible = new Label[12] { new Label(), new Label(), new Label(), new Label(), new Label(), new Label(), new Label(), new Label(), new Label(), new Label(), new Label(), new Label() };
-
-
         public double[] conversionRates = new double[12] {0,0,0,0,0,0,0,0,0,0,0,0};
-
         public BoxView[] boxviews = new BoxView[12];
 
 
         public CallPage()
         {
+            stack1 = new StackLayout()
+            {
+                Orientation = StackOrientation.Vertical,
+            };
 
-            var ignore = LoadData(this);
+
+            var ignore = LoadData();
            
 
             lab1 = new Label()
@@ -54,9 +53,9 @@ namespace XamCallWeb
             {
                 label.Text = "";
             }
+
             loadCurrenciesConversion();
-
-
+            
             picker = new Picker()
             {
                 Title = "Currency",
@@ -74,23 +73,12 @@ namespace XamCallWeb
             {
                 picker.Items.Add(colorName);
                 picker2.Items.Add(colorName);
-
             }
 
             picker.SelectedIndex = 0;
             picker2.SelectedIndex = 0;
 
-
-            stack1 = new StackLayout()
-            {
-                Orientation = StackOrientation.Vertical,
-            };
-
-        
-
-            int counter = 0;
-
-           
+            int counter = 0;     
 
             var totalMoneyLab = new Label()
             {
@@ -216,6 +204,7 @@ namespace XamCallWeb
                 layoutGraph.Children.Add(boxviews[counter2]);
                 counter2++;
             }
+
             var contentStack = new StackLayout
             {
                 Padding = new Thickness(20),
@@ -243,7 +232,7 @@ namespace XamCallWeb
 
 
        
-        async Task LoadData(CallPage callPage)
+        async Task LoadData()
         {
             char[] delimiterChars = { ',' };
             String text = await ReadFromFile();
@@ -253,27 +242,28 @@ namespace XamCallWeb
             int counter = 0;
             foreach (string s in words)
             {
-                callPage.ammounts[counter] = Convert.ToDouble(s);
+                ammounts[counter] = Convert.ToDouble(s);
                 counter++;
             }
             //lab1.Text = text;
 
-            foreach (double ammount in callPage.ammounts)
+            counter = 0;
+            foreach (double ammount in ammounts)
             {
+                Debug.WriteLine("DENTRO DO FOR");
+
                 if (ammount != 0)
                 {
-                    callPage.labelsVisible[counter] = new Label()
+                    labelsVisible[counter] = new Label()
                     {
                         Text = currency[counter] + " in wallet: " + ammount,
                         WidthRequest = 100
                     };
 
-                    callPage.stack1.Children.Add(labelsVisible[counter]);
+                    stack1.Children.Add(labelsVisible[counter]);
                 }
                 counter++;
-
-
-            }
+             }
         }
 
 
