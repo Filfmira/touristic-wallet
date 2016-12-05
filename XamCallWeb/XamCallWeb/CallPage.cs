@@ -181,29 +181,7 @@ namespace XamCallWeb
 
             };
 
-            double max = ammounts.Max();
-
-            int counter2 = 0;
-            foreach (double d in ammounts)
-            {
-
-                boxviews[counter2] = new BoxView
-                {
-                    WidthRequest = 20,
-                    BackgroundColor = Color.Red,
-                    HorizontalOptions = LayoutOptions.Center,
-                    VerticalOptions = LayoutOptions.End
-                };
-
-                if (max == 0.0)
-                    boxviews[counter2].HeightRequest = 0;
-                else
-                    boxviews[counter2].HeightRequest = (d * 150) / max;
-
-
-                layoutGraph.Children.Add(boxviews[counter2]);
-                counter2++;
-            }
+            
 
             var contentStack = new StackLayout
             {
@@ -211,6 +189,7 @@ namespace XamCallWeb
                 Children = {     stack3, stack2, lab1, stack1, layoutGraph }
 
             };
+
 
             var scrollview = new ScrollView
             {
@@ -264,6 +243,33 @@ namespace XamCallWeb
                 }
                 counter++;
              }
+
+
+
+
+            double max = ammounts.Max();
+
+            int counter2 = 0;
+            foreach (double d in ammounts)
+            {
+
+                boxviews[counter2] = new BoxView
+                {
+                    WidthRequest = 20,
+                    BackgroundColor = Color.Red,
+                    HorizontalOptions = LayoutOptions.Center,
+                    VerticalOptions = LayoutOptions.End
+                };
+
+                if (max == 0.0)
+                    boxviews[counter2].HeightRequest = 0;
+                else
+                    boxviews[counter2].HeightRequest = (d * 150) / max;
+
+
+                layoutGraph.Children.Add(boxviews[counter2]);
+                counter2++;
+            }
         }
 
 
