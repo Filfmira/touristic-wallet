@@ -54,7 +54,7 @@ namespace XamCallWeb
                 label.Text = "";
             }
 
-            loadCurrenciesConversion();
+            var ignore2=loadCurrenciesConversion();
             
             picker = new Picker()
             {
@@ -219,12 +219,16 @@ namespace XamCallWeb
             string[] words = text.Split(delimiterChars);
 
             int counter = 0;
-            foreach (string s in words)
+            if (words.Length != 1)
             {
-                ammounts[counter] = Convert.ToDouble(s);
-                counter++;
+                
+                foreach (string s in words)
+                {
+                    ammounts[counter] = Convert.ToDouble(s);
+                    counter++;
+                }
+                //lab1.Text = text;
             }
-            //lab1.Text = text;
 
             counter = 0;
             foreach (double ammount in ammounts)
