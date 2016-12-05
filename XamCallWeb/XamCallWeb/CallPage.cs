@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PCLStorage;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
@@ -20,7 +21,7 @@ namespace XamCallWeb
 
         public string[] currency = new string[12] { "EUR", "USD", "GBP", "CHF", "CNY", "CAD", "BRL", "AUD", "INR", "JPY", "RUB", "NZD" };
 
-        public double[] ammounts = new double[12] { 1500, 300, 300, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 };
+        public double[] ammounts = new double[12] { 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 };
 
         public Label[] labels = new Label[12] { new Label(), new Label(), new Label(), new Label(), new Label(), new Label(), new Label(), new Label(), new Label(), new Label(), new Label(), new Label() };
 
@@ -34,6 +35,9 @@ namespace XamCallWeb
 
         public CallPage()
         {
+
+            var ignore = LoadData(this);
+           
 
             lab1 = new Label()
             {
@@ -86,22 +90,7 @@ namespace XamCallWeb
 
             int counter = 0;
 
-            foreach (double ammount in ammounts)
-            {
-                if (ammount != 0)
-                {
-                    labelsVisible[counter] = new Label()
-                    {
-                        Text = currency[counter] + " in wallet: " + ammount,
-                        WidthRequest = 100
-                    };
-
-                    stack1.Children.Add(labelsVisible[counter]);
-                }
-                counter++;
-
-
-            }
+           
 
             var totalMoneyLab = new Label()
             {
@@ -114,7 +103,8 @@ namespace XamCallWeb
             {
                 Text = "Calculate",
                 HorizontalOptions = LayoutOptions.Center,
-                BackgroundColor=Color.Transparent,
+                TextColor=Color.White,
+                BackgroundColor=Color.FromRgb(38, 148, 242),
                 BorderColor = Color.Transparent
             };
             but.Clicked += OnButton_Clicked;
@@ -144,9 +134,10 @@ namespace XamCallWeb
             var butAdd = new Button()
             {
                 Text = "Add",
-                HorizontalOptions = LayoutOptions.Center,
-                BackgroundColor = Color.Transparent,
-                BorderColor=Color.Transparent
+                HorizontalOptions = LayoutOptions.Start,
+                BackgroundColor = Color.FromHex("#5DA865"),
+                BorderColor =Color.Transparent,
+                TextColor=Color.White
 
             };
             butAdd.Clicked += OnAddButton_Clicked;
@@ -154,9 +145,10 @@ namespace XamCallWeb
             var butSub = new Button()
             {
                 Text = "Sub",
-                HorizontalOptions = LayoutOptions.Center,
-                BackgroundColor = Color.Transparent,
-                BorderColor = Color.Transparent
+                HorizontalOptions = LayoutOptions.End,
+                BackgroundColor = Color.FromHex("#c71f16"),
+                BorderColor = Color.Transparent,
+                TextColor=Color.White
 
             };
             butSub.Clicked += OnSubButton_Clicked;
@@ -167,10 +159,12 @@ namespace XamCallWeb
                 Children = { newAmmountLab, value , picker2, butAdd, butSub }
 
             };
-
+            
             var stack32 = new StackLayout()
             {
                 Orientation = StackOrientation.Horizontal,
+                HorizontalOptions= LayoutOptions.FillAndExpand,
+                
                 Children = { butAdd, butSub }
 
             };
@@ -208,11 +202,17 @@ namespace XamCallWeb
                 boxviews[counter2] = new BoxView
                 {
                     WidthRequest = 20,
-                    HeightRequest = (d * 150) / max,
                     BackgroundColor = Color.Red,
                     HorizontalOptions = LayoutOptions.Center,
                     VerticalOptions = LayoutOptions.End
                 };
+
+                if (max == 0.0)
+                    boxviews[counter2].HeightRequest = 0;
+                else
+                    boxviews[counter2].HeightRequest = (d * 150) / max;
+
+
                 layoutGraph.Children.Add(boxviews[counter2]);
                 counter2++;
             }
@@ -234,10 +234,46 @@ namespace XamCallWeb
             };
 
         }
+        
 
         private void OnButton_Clicked(object sender, EventArgs e)
         {
             CalculateWallet();
+        }
+
+
+       
+        async Task LoadData(CallPage callPage)
+        {
+            char[] delimiterChars = { ',' };
+            String text = await ReadFromFile();
+
+            string[] words = text.Split(delimiterChars);
+
+            int counter = 0;
+            foreach (string s in words)
+            {
+                callPage.ammounts[counter] = Convert.ToDouble(s);
+                counter++;
+            }
+            //lab1.Text = text;
+
+            foreach (double ammount in callPage.ammounts)
+            {
+                if (ammount != 0)
+                {
+                    callPage.labelsVisible[counter] = new Label()
+                    {
+                        Text = currency[counter] + " in wallet: " + ammount,
+                        WidthRequest = 100
+                    };
+
+                    callPage.stack1.Children.Add(labelsVisible[counter]);
+                }
+                counter++;
+
+
+            }
         }
 
 
@@ -278,7 +314,10 @@ namespace XamCallWeb
 
             for (int z = 0; z < ammounts.Length; z++)
             {
-                boxviews[z].HeightRequest = (ammountsEuro[z] * 150) / max;
+                if (max == 0.0)
+                    boxviews[z].HeightRequest = 0;
+                else
+                    boxviews[z].HeightRequest = (ammountsEuro[z] * 150) / max;
             }
 
 
@@ -287,7 +326,7 @@ namespace XamCallWeb
 
         /* MUDAR FORMA COMO ESTÁ A SER REESCRITO O FORM */
 
-        private void OnAddButton_Clicked(object sender, EventArgs e)
+        private async void OnAddButton_Clicked(object sender, EventArgs e)
         {
 
             if (ammounts[picker2.SelectedIndex] == 0)
@@ -302,7 +341,9 @@ namespace XamCallWeb
 
                 stack1.Children.Add(labelsVisible[picker2.SelectedIndex]);
 
-            } else {
+            }
+            else
+            {
                 ammounts[picker2.SelectedIndex] += double.Parse(value.Text);
                 labelsVisible[picker2.SelectedIndex].Text = currency[picker2.SelectedIndex] + " in wallet: " + ammounts[picker2.SelectedIndex].ToString();
 
@@ -311,6 +352,8 @@ namespace XamCallWeb
 
 
             CalculateWallet();
+            await WriteToFile(ammounts);
+           // lab1.Text = await ReadFromFile();
 
 
         }
@@ -367,7 +410,7 @@ namespace XamCallWeb
 
             using (HttpWebResponse response = request.EndGetResponse(ar) as HttpWebResponse)
             {
-                Device.BeginInvokeOnMainThread(() => state.Item1.Text = "Status: " + response.StatusCode);
+                //Device.BeginInvokeOnMainThread(() => state.Item1.Text = "Status: " + response.StatusCode);
                 if (response.StatusCode == HttpStatusCode.OK)
                     using (StreamReader reader = new StreamReader(response.GetResponseStream()))
                     {
@@ -375,6 +418,36 @@ namespace XamCallWeb
                         Device.BeginInvokeOnMainThread(() => state.Item2.Text = content);
                     }
             }
+        }
+
+        private static async Task WriteToFile(double[] ammounts)
+        {
+            IFolder rootFolder = FileSystem.Current.LocalStorage;
+            IFolder folder = await rootFolder.CreateFolderAsync("Wallet",
+                CreationCollisionOption.OpenIfExists);
+            IFile file = await folder.CreateFileAsync("wallet.txt",
+                CreationCollisionOption.ReplaceExisting);
+            await file.WriteAllTextAsync(string.Join(",", ammounts));
+        }
+
+        private static async Task<String> ReadFromFile()
+        {
+            IFolder rootFolder = FileSystem.Current.LocalStorage;
+
+            ExistenceCheckResult existes = await rootFolder.CheckExistsAsync("Wallet");
+            if (existes.ToString().Equals("NotFound"))
+            {
+                return "null";
+            }
+            else
+            {
+                IFolder folder = await rootFolder.GetFolderAsync("Wallet");
+                IFile file = await folder.GetFileAsync("wallet.txt");
+                String x = await file.ReadAllTextAsync();
+                return x;
+            }
+
+
         }
 
     }

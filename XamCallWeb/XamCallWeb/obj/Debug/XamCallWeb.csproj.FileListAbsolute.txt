@@ -28,5 +28,27 @@ C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb\obj\
 C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb\obj\Debug\XamCallWeb.pdb
 C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb\obj\Debug\XamCallWeb.dll.mdb
 C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb\bin\Debug\XamCallWeb.dll.mdb
-C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb\obj\Debug\XamCallWeb.dll.mdb
-C:\Users\Filipe Batista\Desktop\CMOV\touristic-wallet\XamCallWeb\XamCallWeb\bin\Debug\XamCallWeb.dll.mdb
+C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb\bin\Debug\XamCallWeb.dll
+C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb\bin\Debug\XamCallWeb.pdb
+C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb\bin\Debug\PCLStorage.Abstractions.dll
+C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb\bin\Debug\PCLStorage.dll
+C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb\bin\Debug\Xamarin.Forms.Core.dll
+C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb\bin\Debug\Xamarin.Forms.Platform.dll
+C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb\bin\Debug\PCLStorage.xml
+C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb\bin\Debug\PCLStorage.Abstractions.xml
+C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb\bin\Debug\Xamarin.Forms.Core.pdb
+C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb\bin\Debug\Xamarin.Forms.Core.xml
+C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb\bin\Debug\Xamarin.Forms.Platform.pdb
+C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb\obj\Debug\XamCallWeb.dll
+C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb\obj\Debug\XamCallWeb.pdb
+C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb\obj\Debug\XamCallWeb.dll.mdb
+C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb\bin\Debug\XamCallWeb.dll.mdb
+C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb\obj\Debug\XamCallWeb.dll.mdb
+C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb\bin\Debug\XamCallWeb.dll.mdb
+C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb\obj\Debug\XamCallWeb.dll.mdb
+C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb\bin\Debug\XamCallWeb.dll.mdb
+C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb\obj\Debug\XamCallWeb.dll.mdb
+C:\workspace\touristic-wallet\XamCallWeb\XamCallWeb\bin\Debug\XamCallWeb.dll.mdb
