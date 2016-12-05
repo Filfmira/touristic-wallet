@@ -25,6 +25,7 @@ namespace XamCallWeb
         public Label[] labelsVisible = new Label[12] { new Label(), new Label(), new Label(), new Label(), new Label(), new Label(), new Label(), new Label(), new Label(), new Label(), new Label(), new Label() };
         public double[] conversionRates = new double[12] {0,0,0,0,0,0,0,0,0,0,0,0};
         public BoxView[] boxviews = new BoxView[12];
+        public Color[] colors = new Color[12] { Color.Red, Color.Blue, Color.Green, Color.Orange, Color.Fuchsia, Color.Gray, Color.Yellow, Color.Maroon, Color.Purple, Color.Lime, Color.Aqua, Color.Black };
 
 
         public CallPage()
@@ -75,18 +76,21 @@ namespace XamCallWeb
                 picker2.Items.Add(colorName);
             }
 
-            picker.SelectedIndex = 0;
-            picker2.SelectedIndex = 0;
+           
 
             int counter = 0;     
 
             var totalMoneyLab = new Label()
             {
                 Text = "Calculate total money in:",
-                WidthRequest = 250
+                FontSize = 15,
+                TextColor = Color.Black,
+                WidthRequest = 250,
+                VerticalTextAlignment = TextAlignment.Center
+
             };
 
-
+            /*
             but = new Button()
             {
                 Text = "Calculate",
@@ -95,18 +99,20 @@ namespace XamCallWeb
                 BackgroundColor=Color.FromRgb(38, 148, 242),
                 BorderColor = Color.Transparent
             };
-            but.Clicked += OnButton_Clicked;
+            but.Clicked += OnButton_Clicked;*/
 
             var stack2 = new StackLayout()
             {
                 Orientation = StackOrientation.Horizontal,
-                Children = { totalMoneyLab, picker, but }
+                Children = { totalMoneyLab, picker/*, but */}
 
             };
 
             var newAmmountLab = new Label()
             {
                 Text = "Add/Sub ammount: ",
+                FontSize=15,
+                TextColor=Color.Black,
                 WidthRequest = 250,
                 VerticalTextAlignment= TextAlignment.Center
             };
@@ -180,13 +186,26 @@ namespace XamCallWeb
                 VerticalOptions = LayoutOptions.CenterAndExpand
 
             };
-
             
+            BoxView bv2 = new BoxView
+            {
+                HeightRequest = 20,
+                BackgroundColor = Color.Transparent
+            };
+
+
+            Label title = new Label
+            {
+                Text = "My Wallet",
+                FontSize = 25,
+                TextColor = Color.Black,
+                HeightRequest = 40
+            };
 
             var contentStack = new StackLayout
             {
                 Padding = new Thickness(20),
-                Children = {     stack3, stack2, lab1, stack1, layoutGraph }
+                Children = { title,stack3, bv2, lab1, bv2,stack2, bv2, stack1, bv2,layoutGraph }
 
             };
 
@@ -201,6 +220,10 @@ namespace XamCallWeb
                 Children = { scrollview }
             };
 
+
+            picker.SelectedIndexChanged += OnButton_Clicked;
+            //picker.SelectedIndex = 0;
+            picker2.SelectedIndex = 0;
         }
         
 
@@ -242,8 +265,23 @@ namespace XamCallWeb
                         Text = currency[counter] + " in wallet: " + ammount,
                         WidthRequest = 100
                     };
+                    BoxView b = new BoxView
+                    {
+                        WidthRequest = 10,
+                        HeightRequest=10,
+                        BackgroundColor = colors[counter]
+                    };
 
-                    stack1.Children.Add(labelsVisible[counter]);
+                    StackLayout st = new StackLayout
+                    {
+                        Orientation = StackOrientation.Horizontal,
+                        HorizontalOptions = LayoutOptions.Start,
+                        VerticalOptions = LayoutOptions.CenterAndExpand
+                    };
+
+                    st.Children.Add(b);
+                    st.Children.Add(labelsVisible[counter]);
+                    stack1.Children.Add(st);
                 }
                 counter++;
              }
@@ -260,7 +298,7 @@ namespace XamCallWeb
                 boxviews[counter2] = new BoxView
                 {
                     WidthRequest = 20,
-                    BackgroundColor = Color.Red,
+                    BackgroundColor = colors[counter2],
                     HorizontalOptions = LayoutOptions.Center,
                     VerticalOptions = LayoutOptions.End
                 };
@@ -299,6 +337,8 @@ namespace XamCallWeb
                 totalSumEuros += ammounts[z] * conversionRates[z];
                 ammountsEuro[z] = ammounts[z] * conversionRates[z]; //keep values on an array
             }
+            if(picker.SelectedIndex==-1)
+                picker.SelectedIndex = 0;
 
             totalSumCurrency = totalSumEuros * (1 / conversionRates[picker.SelectedIndex]);
 
@@ -321,7 +361,7 @@ namespace XamCallWeb
             }
 
 
-            lab1.Text = "Ammount: " + totalSumCurrency + " in " + picker.Items[picker.SelectedIndex];
+            lab1.Text = "Ammount:  " + Math.Round(totalSumCurrency) + " " + picker.Items[picker.SelectedIndex];
         }
 
         /* MUDAR FORMA COMO ESTÁ A SER REESCRITO O FORM */
@@ -338,8 +378,24 @@ namespace XamCallWeb
                     Text = currency[picker2.SelectedIndex] + " in wallet: " + double.Parse(value.Text),
                     WidthRequest = 100
                 };
+                
+                BoxView b = new BoxView
+                {
+                    WidthRequest = 10,
+                    HeightRequest = 10,
+                    BackgroundColor = colors[picker2.SelectedIndex]
+                };
 
-                stack1.Children.Add(labelsVisible[picker2.SelectedIndex]);
+                StackLayout st = new StackLayout
+                {
+                    Orientation = StackOrientation.Horizontal,
+                    HorizontalOptions = LayoutOptions.Start,
+                    VerticalOptions = LayoutOptions.CenterAndExpand
+                };
+
+                st.Children.Add(b);
+                st.Children.Add(labelsVisible[picker2.SelectedIndex]);
+                stack1.Children.Add(st);
 
             }
             else
@@ -358,16 +414,20 @@ namespace XamCallWeb
 
         }
 
-        private void OnSubButton_Clicked(object sender, EventArgs e)
+        private async void OnSubButton_Clicked(object sender, EventArgs e)
         {
+            
             if (ammounts[picker2.SelectedIndex] == 0) { }
             else
             {
                 ammounts[picker2.SelectedIndex] -= double.Parse(value.Text);
+                if (ammounts[picker2.SelectedIndex] < 0) ammounts[picker2.SelectedIndex] = 0.0;
                 labelsVisible[picker2.SelectedIndex].Text = currency[picker2.SelectedIndex] + " in wallet: " + ammounts[picker2.SelectedIndex].ToString();
             }
 
             CalculateWallet();
+            await WriteToFile(ammounts);
+
         }
 
 

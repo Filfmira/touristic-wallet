@@ -13,7 +13,7 @@ namespace XamCallWeb {
 
       // The root page of your application
       var content = new CallPage {
-        Title = "XamCallWeb",
+        Title = "Touristic Wallet",
       };
       MainPage = new NavigationPage(content);
     }
